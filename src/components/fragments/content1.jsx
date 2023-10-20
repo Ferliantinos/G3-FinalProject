@@ -1,4 +1,4 @@
-import First_Content from "../elements/button/button_content1";
+import First_Content from "../elements/button/buttonContent1";
 
 const Content_1 = () => {
   return (

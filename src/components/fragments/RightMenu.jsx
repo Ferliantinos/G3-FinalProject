@@ -1,4 +1,4 @@
-import RightMenuList from "../elements/RightMenu/RightMenuList";
+import RightMenuList from "../elements/RightMenu/rightMenuList";
 
 const RightMenu = () => {
   return (

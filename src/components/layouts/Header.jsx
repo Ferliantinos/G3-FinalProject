@@ -1,4 +1,4 @@
-import CenterIcon from "../fragments/CenterIcon";
+import CenterIcon from "../fragments/centerIcon";
 import LeftMenu from "../fragments/LeftMenu";
 import RightMenu from "../fragments/RightMenu";
 

@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="flex justify-center items-center py-9">
+    <nav className="flex justify-center items-center py-3">
       <div className="flex gap-10">
         <a href="#" className="text-base hover:underline">
           {" "}

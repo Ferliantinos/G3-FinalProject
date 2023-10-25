@@ -1,4 +1,4 @@
-import Six_Content from "../elements/button/button_content6";
+import Six_Content from "../elements/button/buttonContent6";
 
 const Content_6 = () => {
   return (

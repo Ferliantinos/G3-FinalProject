@@ -1,9 +1,9 @@
-import Content_1 from "../fragments/Content_1";
-import Content_2 from "../fragments/Content_2";
-import Content_3 from "../fragments/Content_3";
-import Content_4 from "../fragments/Content_4";
-import Content_5 from "../fragments/Content_5";
-import Content_6 from "../fragments/Content_6";
+import Content_1 from "../fragments/content1";
+import Content_2 from "../fragments/content2";
+import Content_3 from "../fragments/content3";
+import Content_4 from "../fragments/content4";
+import Content_5 from "../fragments/content5";
+import Content_6 from "../fragments/content6";
 
 const Section2 = () => {
   return (

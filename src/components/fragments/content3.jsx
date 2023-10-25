@@ -1,4 +1,4 @@
-import Third_Content from "../elements/button/buttonContent3";
+import Third_Content from "../elements/button/button_content3";
 
 const Content_3 = () => {
   return (
@@ -11,42 +11,42 @@ const Content_3 = () => {
           <div className="flex gap-4 pb-3">
             <Third_Content
               destination="#"
-              imglink="/assets/images/[2]_Content/Content_3_Carosel_1.jpe g"
+              imglink="../../../public/assets/images/[2]_Content/Content_3_Carosel_1.jpeg"
               title="Carosel_1"
               category="Ladies"
               message="Dresses"
             />
             <Third_Content
               destination="#"
-              imglink="/assets/images/[2]_Content/Content_3_Carosel_2.jpeg"
+              imglink="../../../public/assets/images/[2]_Content/Content_3_Carosel_2.jpeg"
               title="Carosel_2"
               category="Best Men"
               message="Trendy"
             />
             <Third_Content
               destination="#"
-              imglink="/assets/images/[2]_Content/Content_3_Carosel_3.jpeg"
+              imglink="../../../public/assets/images/[2]_Content/Content_3_Carosel_3.jpeg"
               title="Carosel_3"
               category="Divided"
               message="From Rp 99.000"
             />
             <Third_Content
               destination="#"
-              imglink="/assets/images/[2]_Content/Content_3_Carosel_4.jpeg"
+              imglink="../../../public/assets/images/[2]_Content/Content_3_Carosel_4.jpeg"
               title="Carosel_4"
               category="Music"
               message="Festival Ready"
             />
             <Third_Content
               destination="#"
-              imglink="/assets/images/[2]_Content/Content_3_Carosel_5.jpeg"
+              imglink="../../../public/assets/images/[2]_Content/Content_3_Carosel_5.jpeg"
               title="Carosel_5"
               category="Divided"
               message="90 Style"
             />
             <Third_Content
               destination="#"
-              imglink="/assets/images/[2]_Content/Content_3_Carosel_6.jpeg"
+              imglink="../../../public/assets/images/[2]_Content/Content_3_Carosel_6.jpeg"
               title="Carosel_6"
               category="Kids"
               message="From Rp 249.900"

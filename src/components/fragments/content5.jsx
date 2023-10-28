@@ -1,4 +1,4 @@
-import Five_Content from "../elements/button/button_content5";
+import Five_Content from "../elements/button/buttonContent5";
 
 const Content_5 = () => {
   return (

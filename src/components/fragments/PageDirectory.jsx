@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const PageDirectory = () => {
   return (
-    <div className="text-xs py-5">
+    <div className="text-xs py-5 px-5 flex justify-center items-center">
       <Link to="/" className="hover:underline">
         HM.COM
       </Link>

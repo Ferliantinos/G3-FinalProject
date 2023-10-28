@@ -1,12 +1,12 @@
-import Header from "../components/layouts/Header";
-import Footer from "../components/layouts/Footer";
+import Header from "../components/layouts/header";
+import Footer from "../components/layouts/footer";
 import MenLayouts from "../components/layouts/menLayout";
-import PageDirectory from "../components/fragments/PageDirectory";
+import PageDirectory from "../components/fragments/pageDirectory";
 import AsideLeftProduct from "../components/fragments/asideLeftProdcuts";
 import HotCard from "../components/fragments/hotCard";
 import AsideHeader from "../components/elements/asideLeft/asideHeader";
 import List from "../components/elements/asideLeft/asideList";
-import Navbar from "../components/layouts/Navbar";
+import Navbar from "../components/layouts/navbar";
 import DiscountBanner from "../components/fragments/discountBanner";
 
 const MenPage = () => {

@@ -2,10 +2,10 @@ const Card = ({ imgLink, title, price }) => {
   return (
     <>
       <div className="flex flex-wrap">
-        <div className="max-w-xs rounded overflow-hidden shadow-lg my-5">
+        <div className="max-w-xs rounded overflow-hidden shadow-lg my-2">
           <div className="flex items-center justify-center">
             <img
-              className="w-60"
+              className="w-64"
               src={`/assets/images/${imgLink}`}
               alt="Sunset in the mountains"
             />

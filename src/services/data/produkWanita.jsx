@@ -54,6 +54,18 @@ const produkWanita = [
     ],
     originalLink: "https://id.hm.com/id_id/oversized-blouse-1151243001009.html",
   },
+  {
+    id: 5,
+    name: "Button-front Trousers",
+    price: 349900,
+    desc: "CONSCIOUS CHOICE Trousers in heavy jersey. High waist with concealed elastication, decorative buttons at the front and wide, straight legs.",
+    img: [
+      "/assets/images/Produk_Wanita/produkwanita5",
+      "/assets/images/Produk_Wanita/produkwanita5-2",
+      "/assets/images/Produk_Wanita/produkwanita5-3",
+      "/assets/images/Produk_Wanita/produkwanita5-4",
+    ],
+  },
 ];
 
 export default produkWanita;

@@ -1,4 +1,4 @@
-import Second_Content from "../elements/button/button_content2";
+import Second_Content from "../elements/button/buttonContent2";
 
 const Content_2 = () => {
   return (
@@ -8,7 +8,7 @@ const Content_2 = () => {
           destination="#"
           title="Belanja Sekarang"
           bgColor="bg-slate-100"
-          textColor="black" 
+          textColor="text-black"
         />
       </div>
     </>

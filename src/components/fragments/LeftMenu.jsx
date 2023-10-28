@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const LeftMenu = () => {
   return (
     <div className="flex gap-3 justify-center items-center">
-      <a
-        href="login.html"
+      <Link
+        to="/login"
         className="text-xs hover:underline flex gap-1 justify-center items-center"
       >
         <img
@@ -11,7 +13,7 @@ const LeftMenu = () => {
           className="w-[18px] h-[18px]"
         />
         Masuk Akun
-      </a>
+      </Link>
       <a
         href="#"
         className="text-xs hover:underline flex justify-center items-center"

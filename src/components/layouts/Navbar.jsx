@@ -1,27 +1,33 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="flex justify-center items-center py-3">
       <div className="flex gap-10">
-        <a href="#" className="text-base hover:underline">
+        <Link to="#" className="text-base hover:underline">
           {" "}
           Wanita{" "}
-        </a>
-        <a href="#" className="text-base hover:underline">
+        </Link>
+        <Link to="#" className="text-base hover:underline">
           {" "}
           Pria{" "}
-        </a>
-        <a href="#" className="text-base hover:underline">
+        </Link>
+        <Link to="#" className="text-base hover:underline">
           {" "}
           Divided{" "}
-        </a>
-        <a href="#" className="text-base hover:underline">
+        </Link>
+        <Link to="#" className="text-base hover:underline">
           {" "}
           Baby{" "}
-        </a>
-        <a href="#" className="text-base hover:underline">
+        </Link>
+        <Link to="#" className="text-base hover:underline">
           {" "}
           Anak-anak{" "}
-        </a>
+        </Link>
+        <Link to="/products" className="text-base hover:underline">
+          {" "}
+          Semua Produk{" "}
+        </Link>
         <div className="border-solid border-black border-b-2">
           <form
             action="#"

@@ -1,29 +1,54 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  // menggunakan navigate
+  const navigate = useNavigate();
+  // agar ada event saat user mengklik navigate, cth : wanita(bg-red)
+  const [activeTab, setActiveTab] = useState("");
+  const dataNavbar = [
+    {
+      label: "Wanita",
+      value: "wanita",
+    },
+    {
+      label: "Pria",
+      value: "pria",
+    },
+    {
+      label: "Divided",
+      value: "divided",
+    },
+    {
+      label: "Baby",
+      value: "baby",
+    },
+    {
+      label: "Anak-anak",
+      value: "anak-anak",
+    },
+  ];
+
   return (
     <nav className="flex justify-center items-center py-3">
       <div className="flex gap-10">
-        <Link to="#" className="text-base hover:underline">
-          {" "}
-          Wanita{" "}
-        </Link>
-        <Link to="#" className="text-base hover:underline">
-          {" "}
-          Pria{" "}
-        </Link>
-        <Link to="#" className="text-base hover:underline">
-          {" "}
-          Divided{" "}
-        </Link>
-        <Link to="#" className="text-base hover:underline">
-          {" "}
-          Baby{" "}
-        </Link>
-        <Link to="#" className="text-base hover:underline">
-          {" "}
-          Anak-anak{" "}
-        </Link>
+        {dataNavbar.map((item) => {
+          console.log(`${setActiveTab}`);
+          return (
+            <>
+              <Link
+                to={`/products?category=${item.value}`}
+                className={`text-base hover:underline ${
+                  activeTab == item.value ? "text-lime-500" : ""
+                }`}
+                onClick={() => setActiveTab(item.value)}
+              >
+                {item.label}
+              </Link>
+            </>
+          );
+        })}
+
         <Link to="/products" className="text-base hover:underline">
           {" "}
           Semua Produk{" "}
